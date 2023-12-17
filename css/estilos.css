@@ -1,0 +1,266 @@
+/*{
+  border: 1px solid rgb(163, 163, 163);
+}*/
+
+/**********FUENTES*********/
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(/font/Inter-Regular.ttf);
+  font-size: 16px;
+}
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url(/font/Inter-Bold.ttf);
+  font-size: 48px;
+}
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url(/font/Inter-SemiBold.ttf);
+  font-size: 32px;
+}
+@font-face {
+  font-family: 'Romanesco-Regular';
+  src: url(/font/Romanesco-Regular.ttf);
+  font-size: 96px;
+}
+
+/*********** HEAD **********/
+#menu {
+  background: #a3a656;
+  padding: 19px 0px;
+  font-family: 'Inter-Regular';
+  padding-left: 16px;
+}
+#menu ul{display: inline;}
+#menu ul a{color: #000; text-decoration: none;}
+#menu ul li{padding: 5.5px 10px; text-transform: uppercase;}
+#menu ul a:hover{color: #fff;}
+
+#user{
+  float: right;
+}
+
+.center-text{
+  margin-right: 8px;
+  margin-top: 10px;
+  float: left;
+  font-family: 'Inter-Regular';
+  font-size: 12px;
+}
+
+#user img{
+  margin-right: 8px;
+}
+
+
+header section ul li{
+  display: inline-block;
+}
+
+/**************MAIN**************/
+
+#img_principal{
+  height: 648px;
+  background-image: url(../images/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-main{
+  margin-left: 175px; margin-top: 125px;
+  width: 600px;
+  color: #000;
+  position: absolute; padding: 15px;
+}
+
+.text-main label{
+  font-family: 'Romanesco-Regular';
+  font-size: 96px;
+  padding-left: 5px;
+}
+
+.text-main h2{
+  font-family: 'Inter-SemiBold';
+  font-size: 32px;
+}
+
+/**********RESERVA**********/
+
+#reserva{
+  padding: 20px 290px;
+  font-family: 'Inter-Regular';
+  text-transform: uppercase;
+  background-color: #F2F6F6;
+}
+
+#lblReserva{padding: 0px 25px;}
+
+#txtReserva{
+  width: 245px;
+  padding: 20px 20px;
+}
+#lblcode{
+  padding-right: 0px;
+  padding-left: 25px;
+}
+#txtCode{
+  width: 170px;
+  position: absolute; margin-left: 15px; padding: 20px 20px;
+  font-family: 'Inter-Regular'; font-size: 16px; text-transform: uppercase;
+}
+#txtCode::placeholder{
+  color: #9E9A9A;
+}
+
+#reserva input{
+  border: solid 0px transparent; border-radius: 15px;
+}
+
+/************SERVICIOS**********/
+
+#servicios{
+  margin-top: 92px; margin-bottom: 50px; display: flex; padding: 0px 20px;
+}
+
+#servicios article{
+  width: 335px;
+  padding: 0px 67px;
+}
+
+#servicios h2{
+  margin: 0; padding: 20px 0px; display: flex; justify-content: center; align-items: center;
+  background-color: #A3A656; color: #FFF;
+  border-radius: 15px 15px 0px 0px;
+  font-family: 'Inter-SemiBold'; font-size: 32px;
+}
+
+#servicios p{
+  font-family: 'Inter-Regular';
+}
+
+#servicios img{
+  width: 335px;
+}
+
+#servicios article div{
+  height: 43px;
+  display: flex; justify-content: space-around; padding-top: 1px;
+}
+
+.precio{
+  display: flex; margin-left: -43px;
+  font-family: 'Inter-Bold'; font-size: 30px;
+}
+
+#servicios button{
+  padding: 5px 34px; margin-right: -56px;
+  text-transform: uppercase; font-family: 'Inter-Bold'; font-size: 15px;
+  background-color: #A3A656; color: #FFF;
+  border-radius: 35px; border: 0px;
+}
+
+#servicios button:hover{
+  background-color: #384001;
+  cursor: pointer;
+}
+
+/**********HACERTE SOCIO***********/
+
+#socio{
+  background-color: #F2F6F6;
+  text-align: center;
+  height: 746px;
+}
+
+#socio h2{
+  font-family: 'Inter-SemiBold'; font-size: 32px; padding-top: 25px;
+}
+
+#suscripciones{
+  height: 500px; display: flex; justify-content: space-around;
+  text-align: center;
+  padding-left: 80px;
+}
+
+.suscripcion{
+  margin-top: 59px;
+  flex-direction: column; align-items: center;
+}
+
+.marco{
+  height: 225px; width: 225px; margin-left: 22px;
+  border: 10px solid #384001;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+.marco img{
+  padding-top: 50px;
+  height: 120px; width: 117px;
+}
+
+.suscripcion h2{
+  margin-top: -22px;
+}
+
+.suscripcion button{
+  padding: 20px 75px;
+  border-radius: 35px; border: 0px;
+  background-color: #A3A656; color: #fff;
+  text-transform: uppercase; font-family: 'Inter-Bold'; font-size: 15px;
+}
+
+.suscripcion button:hover{
+  background-color: #384001;
+  cursor: pointer;
+}
+
+.suscripcion ul{
+  text-align: left;
+  padding-left: 30%; margin-top: 30px;
+  font-family: 'Inter-Regular'; font-size: 16px;
+}
+
+.suscripcion li{
+  padding-top: 10px;
+}
+
+/**********FOOTER***********/
+
+footer{
+  height: 97px;
+  background-color: #384001;
+  margin-top: -15px;
+}
+
+#informacion ul{
+  padding: 40px 0px;
+  margin-left: 70px;
+}
+
+#informacion ul li{
+  display: inline-block;
+  padding-right: 90px;
+}
+
+#informacion ul li a{
+  text-decoration: none; color: #A3A656; font-family: 'Inter-Regular'; text-transform: uppercase; font-size: 16px;
+}
+#informacion ul li a:hover{
+  color: #fff;
+}
+
+#redes{
+  float: right;
+  margin-top: -92px;
+}
+
+#redes p{
+  float: left; margin-right: 7px;
+  text-decoration: none; color: #A3A656; font-family: 'Inter-Regular'; text-transform: uppercase; font-size: 16px;
+}
+
+#redes img{
+  padding: 0px 18px;
+}
