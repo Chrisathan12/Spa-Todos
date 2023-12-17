@@ -6,22 +6,22 @@
 
 @font-face {
   font-family: 'Inter-Regular';
-  src: url(font/Inter-Regular.ttf);
+  src: url(../font/Inter-Regular.ttf);
   font-size: 16px;
 }
 @font-face {
   font-family: 'Inter-Bold';
-  src: url(font/Inter-Bold.ttf);
+  src: url(../font/Inter-Bold.ttf);
   font-size: 48px;
 }
 @font-face {
   font-family: 'Inter-SemiBold';
-  src: url(font/Inter-SemiBold.ttf);
+  src: url(../font/Inter-SemiBold.ttf);
   font-size: 32px;
 }
 @font-face {
   font-family: 'Romanesco-Regular';
-  src: url(font/Romanesco-Regular.ttf);
+  src: url(../font/Romanesco-Regular.ttf);
   font-size: 96px;
 }
 
